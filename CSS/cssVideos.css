@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background: linear-gradient(45deg,#387EF2 90%, #f79b1d 10%);
+}
+
+h2 {
+  font-family: "Playwrite AR", cursive;
+}
+
+.title {
+  height: 10vh;
+}
+
+
+
+.main-title {
+  font-size: 4rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0)
+}
+
+.main-title:hover {
+  color: #f79b1d;
+}
+
+.main-title:hover span {
+  color: #FFFFFF;
+}
+
+.main-title span {
+  position: relative;
+  font-size: 5rem;
+  color: #F79B1D;
+  font-weight: 900;
+  transition: all 0.3s;
+}
+
+.main-title span::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #000;
+  top: 20%;
+  left: -25%;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+  z-index: -999;
+  padding: 2rem;
+}
+
+.content {
+  border: solid 0.2rem #fff;
+  border-radius: 2rem;
+  transition: all .3s;
+}
+
+.content:hover {
+  border-color: #F79B1D;
+  box-shadow: 5px 5px 5px 0.5rem #000000;
+}
