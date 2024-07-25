@@ -19,6 +19,10 @@ $('#assignments').click(function (e) {
   window.location.href = "assignments.html"
 })
 
+$('#about').click(function (e) {
+  window.location.href = "about.html"
+})
+
 
 
 
